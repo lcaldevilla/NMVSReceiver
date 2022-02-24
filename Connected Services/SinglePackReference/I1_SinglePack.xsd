@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:tns="urn:types.nmvs.eu:v4.0" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="urn:types.nmvs.eu:v4.0" xmlns="http://www.w3.org/2001/XMLSchema">
+  <include schemaLocation="NMVS_Composite_Types.xsd" />
+  <element name="I1_SinglePack" type="tns:I1_SinglePack_Type" />
+  <complexType name="I1_SinglePack_Type">
+    <complexContent mixed="false">
+      <extension base="tns:Header_Type">
+        <sequence>
+          <element minOccurs="1" maxOccurs="1" name="Body" type="tns:RequestData_Type" />
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+</schema>

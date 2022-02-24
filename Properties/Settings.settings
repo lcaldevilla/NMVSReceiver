@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="NMVSReceiver.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HeaderSoftwareName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NMVS Receiver</Value>
+    </Setting>
+    <Setting Name="HeaderSoftwareSupplier" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">QUOTI IT SOLUTIONS SL</Value>
+    </Setting>
+    <Setting Name="HeaderSoftwareVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1.0.0</Value>
+    </Setting>
+    <Setting Name="SinglePackServicesEndPoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://ws-single-transactions-int-bp.nmvs.eu:8443/WS_SINGLE_TRANSACTIONS_V1/SinglePackServiceV40
+</Value>
+    </Setting>
+    <Setting Name="HeaderLanguage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">spa</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:tns="urn:types.nmvs.eu:v4.0" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="urn:types.nmvs.eu:v4.0" xmlns="http://www.w3.org/2001/XMLSchema">
+  <include schemaLocation="NMVS_Composite_Types.xsd" />
+  <element name="O1_SinglePack" type="tns:O1_SinglePack_Type" />
+  <complexType name="O1_SinglePack_Type">
+    <sequence>
+      <element minOccurs="1" maxOccurs="1" name="Header" type="tns:HeaderResponse_Type" />
+      <element minOccurs="1" maxOccurs="1" name="Body" type="tns:O1_Body_Type" />
+    </sequence>
+  </complexType>
+  <complexType name="O1_Body_Type">
+    <sequence>
+      <group minOccurs="0" maxOccurs="1" ref="tns:O1ResponseBody" />
+      <element minOccurs="1" maxOccurs="1" name="ReturnCode" type="tns:ReturnCode_Type" />
+    </sequence>
+  </complexType>
+</schema>

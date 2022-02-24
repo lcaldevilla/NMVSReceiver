@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="40aea899-7726-478c-b3b1-e4580b8e18a6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="C:\Users\Luis\Downloads\NMVS - WSDL - XSD NMVS-BP-Core V4\wsdl\v4\WS_SINGLE_PACK.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="I3_UndoSinglePack.xsd" MetadataType="Schema" ID="3b343119-f7d8-4738-9ca0-423854243780" SourceId="1" SourceUrl="file:///C:/Users/Luis/Downloads/NMVS - WSDL - XSD NMVS-BP-Core V4/xsd/de/arvato/systems/nmvs/interfaces/ap/v4/types/I3_UndoSinglePack.xsd" />
+    <MetadataFile FileName="NMVS_Catalog_Types.xsd" MetadataType="Schema" ID="389bdaa2-2d85-4d40-91f9-4a33e5b53f9b" SourceId="1" SourceUrl="file:///C:/Users/Luis/Downloads/NMVS - WSDL - XSD NMVS-BP-Core V4/xsd/de/arvato/systems/nmvs/interfaces/ap/v4/types/NMVS_Catalog_Types.xsd" />
+    <MetadataFile FileName="I13_UndoManualSinglePack.xsd" MetadataType="Schema" ID="2689fd6c-8ca2-4b53-a297-05262d8d9c1d" SourceId="1" SourceUrl="file:///C:/Users/Luis/Downloads/NMVS - WSDL - XSD NMVS-BP-Core V4/xsd/de/arvato/systems/nmvs/interfaces/ap/v4/types/I13_UndoManualSinglePack.xsd" />
+    <MetadataFile FileName="NMVS_Base_Types.xsd" MetadataType="Schema" ID="57ac2c9f-8b24-4c58-8881-aa56eaabb492" SourceId="1" SourceUrl="file:///C:/Users/Luis/Downloads/NMVS - WSDL - XSD NMVS-BP-Core V4/xsd/de/arvato/systems/nmvs/interfaces/ap/v4/types/NMVS_Base_Types.xsd" />
+    <MetadataFile FileName="I2_ManualSinglePack.xsd" MetadataType="Schema" ID="dd4294b6-01a9-432a-b8e3-4f481b485457" SourceId="1" SourceUrl="file:///C:/Users/Luis/Downloads/NMVS - WSDL - XSD NMVS-BP-Core V4/xsd/de/arvato/systems/nmvs/interfaces/ap/v4/types/I2_ManualSinglePack.xsd" />
+    <MetadataFile FileName="O1_SinglePack.xsd" MetadataType="Schema" ID="dde8c9db-2e43-4c01-a717-0056235de424" SourceId="1" SourceUrl="file:///C:/Users/Luis/Downloads/NMVS - WSDL - XSD NMVS-BP-Core V4/xsd/de/arvato/systems/nmvs/interfaces/ap/v4/types/O1_SinglePack.xsd" />
+    <MetadataFile FileName="SinglePackServices.wsdl" MetadataType="Wsdl" ID="c62b9c53-553b-4f39-b347-8753fb1c691a" SourceId="1" SourceUrl="file:///C:/Users/Luis/Downloads/NMVS - WSDL - XSD NMVS-BP-Core V4/wsdl/v4/WS_SINGLE_PACK.wsdl" />
+    <MetadataFile FileName="I1_SinglePack.xsd" MetadataType="Schema" ID="f0494e04-8b5e-4759-ae6e-3375b125ec8f" SourceId="1" SourceUrl="file:///C:/Users/Luis/Downloads/NMVS - WSDL - XSD NMVS-BP-Core V4/xsd/de/arvato/systems/nmvs/interfaces/ap/v4/types/I1_SinglePack.xsd" />
+    <MetadataFile FileName="NMVS_Composite_Types.xsd" MetadataType="Schema" ID="aebafea5-544c-4943-9060-e06126f4d306" SourceId="1" SourceUrl="file:///C:/Users/Luis/Downloads/NMVS - WSDL - XSD NMVS-BP-Core V4/xsd/de/arvato/systems/nmvs/interfaces/ap/v4/types/NMVS_Composite_Types.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

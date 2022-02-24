@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:tns="urn:types.nmvs.eu:v4.0" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="urn:types.nmvs.eu:v4.0" xmlns="http://www.w3.org/2001/XMLSchema">
+  <include schemaLocation="NMVS_Composite_Types.xsd" />
+  <element name="I13_UndoManualSinglePack" type="tns:I13_UndoManualSinglePack_Type" />
+  <complexType name="I13_UndoManualSinglePack_Type">
+    <complexContent mixed="false">
+      <extension base="tns:Header_Type">
+        <sequence>
+          <element minOccurs="1" maxOccurs="1" name="Body" type="tns:RequestUndoManualSingleData_Type" />
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="RequestUndoManualSingleData_Type">
+    <complexContent mixed="false">
+      <extension base="tns:ManualRequestData_Type">
+        <sequence>
+          <element minOccurs="0" maxOccurs="1" name="RefClientTrxId" type="tns:ExternalTransactionID_Type">
+            <annotation>
+              <documentation>Transaction-Id of calling system</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+</schema>
